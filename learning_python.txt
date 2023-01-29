@@ -1,0 +1,9 @@
+Em Python podemos usar váriaveis
+Em Python podemos usar listas
+Em Python podemos usar tuplas
+Em Python podemos usar dicionários
+Em Python podemos usar o for
+Em Python podemos usar o while
+Em Python podemos usar o if
+Em Python podemos usar as funções
+Em Python podemos usar classes
