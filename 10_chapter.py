@@ -72,21 +72,70 @@ try:
 
     resultado = num1 + num2
 
-    print("A soma é igual a " + str(resultado))
+    print("\nA soma é igual a " + str(resultado) + "\n")
 
 except ValueError:
-    print("Opa! Parece que você inseriu algum número válido. Tente novamente!")
+    print("\nOpa! Parece que você inseriu algum número válido. \
+Tente novamente!\n")
 
 print("######################################################################")
 
 #EXERCÍCIO 10.7
 
-    
-    
-    
+print("Me de dois números, que vou soma-los para você!\n")
 
+while True:
+    try:
+        num1 = int(input("Digite o primeiro número: "))
+        
+        num2 = int(input("Digite o segundo número: "))
 
+        resultado = num1 + num2
+        print("\nA soma é igual a " + str(resultado) + "\n")
+        
+    except ValueError:
+        print("\nOpa! Parece que você inseriu algum número válido. \
+Tente novamente!\n")
 
+print("######################################################################")
 
+#EXERCÍCIO 10.8
 
+filenames = ["cats.txt", "dogs.txt"]
+
+try:
+    for filename in filenames:
+        with open(filename) as file:
+            arquivo = file.read()
+            print("Arquivo: \n" + arquivo + "\n")
+       
+except FileNotFoundError:
+    print("ahh...não foi possível achar um dos arquivos") 
+
+print("######################################################################")
+
+#EXERCÍCIO 10.9
+
+filenames = ["cats.txt", "dogs.txt"]
+
+try:
+    for filename in filenames:
+        with open(filename) as file:
+            arquivo = file.read()
+            print("Arquivo: \n" + arquivo + "\n")
+       
+except FileNotFoundError:
+    pass
+
+print("######################################################################")
+
+#EXERCÍCIO 10.10
+
+with open("texto.txt") as file:
+    arquivo = file.read()
+    letramin = arquivo.lower()
+    contapala = letramin.count('the')
+    print(contapala)
+
+print("######################################################################")
 
