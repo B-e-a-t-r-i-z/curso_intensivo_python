@@ -1,9 +1,9 @@
-Em Python podemos usar v√°riaveis
+Em Python podemos usar v·riaveis
 Em Python podemos usar listas
 Em Python podemos usar tuplas
-Em Python podemos usar dicion√°rios
+Em Python podemos usar dicion·rios
 Em Python podemos usar o for
 Em Python podemos usar o while
 Em Python podemos usar o if
-Em Python podemos usar as fun√ß√µes
+Em Python podemos usar as funÁıes
 Em Python podemos usar classes
