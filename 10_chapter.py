@@ -1,5 +1,5 @@
 # EXERCÍCIO 10.1
-'''
+
 filename = "learning_python.txt"
 
 with open(filename) as file_object:
@@ -80,7 +80,6 @@ except ValueError:
 print("######################################################################")
 
 #EXERCÍCIO 10.7
-'''
 
     
     
